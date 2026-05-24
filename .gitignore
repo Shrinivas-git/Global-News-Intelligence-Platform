@@ -1,0 +1,49 @@
+# Tool configs (local only)
+.claude/
+.kiro/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.coverage
+
+# Node / Frontend
+node_modules/
+dist/
+.next/
+.nuxt/
+*.local
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ML models (too large for git)
+*.pt
+*.pth
+*.bin
+*.onnx
+ml/models/
